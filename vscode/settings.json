@@ -1,0 +1,17 @@
+{
+    "editor.minimap.renderCharacters": false,
+    "editor.renderFinalNewline": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.incrementalNaming": "smart",
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "telemetry.telemetryLevel": "off",
+    "update.mode": "manual",
+    "update.showReleaseNotes": false,
+    "workbench.enableExperiments": false,
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench"
+}
