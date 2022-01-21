@@ -1,0 +1,26 @@
+{
+    "policies": {
+        "Certificates": {
+            "ImportEnterpriseRoots": true
+        },
+        "DisableDefaultBrowserAgent": true,
+        "DisableFirefoxAccounts": true,
+        "DisableFirefoxStudies": true,
+        "DisablePocket": true,
+        "DisableTelemetry": true,
+        "ManualAppUpdateOnly": true,
+        "NoDefaultBookmarks": true,
+        "OverrideFirstRunPage": "",
+        "OverridePostUpdatePage": "",
+        "Preferences": {
+            "extensions.update.autoUpdateDefault": {
+                "Status": "default",
+                "Value": false
+            }
+        },
+        "UserMessaging": {
+            "ExtensionRecommendations": false,
+            "FeatureRecommendations": false
+        }
+    }
+}
