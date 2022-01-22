@@ -1,0 +1,23 @@
+source $VIMRUNTIME/defaults.vim
+
+set autoread
+set expandtab
+set hlsearch
+set ignorecase
+set laststatus=2
+set list
+set listchars=extends:>,precedes:<,tab:>-,trail:-
+set nowrap
+set number
+set shiftwidth=0
+set smartcase
+set softtabstop=-1
+set tabstop=4
+set title
+set viminfofile=~/.vim/viminfo
+
+set statusline=\ %<%f%(\ %H%M%R%W%)
+set statusline+=%=
+set statusline+=%l,%c%V\ %(%{&fileencoding}\ %)%(%Y\ %)
+
+nnoremap <unique> <Esc><Esc> <Cmd>nohlsearch<CR>
