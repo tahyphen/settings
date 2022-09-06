@@ -1,0 +1,11 @@
+{
+    "editor.renderFinalNewline": false,
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "telemetry.telemetryLevel": "off",
+    "update.mode": "start",
+    "workbench.enableExperiments": false
+}
