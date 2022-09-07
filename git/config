@@ -1,0 +1,12 @@
+[format]
+	pretty = tformat:%C(auto)%h %C(green)%cd%C(auto) %s %C(cyan)@%an%C(auto)%d
+[init]
+	defaultBranch = main
+[log]
+	date = format-local:%F %R
+[merge]
+	ff = false
+[pull]
+	ff = only
+[rebase]
+	autoSquash = true
