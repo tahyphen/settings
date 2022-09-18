@@ -1,3 +1,5 @@
+[alias]
+	graph = log --all --graph
 [format]
 	pretty = tformat:%C(auto)%h %C(green)%cd%C(auto) %s %C(cyan)@%an%C(auto)%d
 [init]
