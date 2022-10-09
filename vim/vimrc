@@ -1,0 +1,14 @@
+source $VIMRUNTIME/defaults.vim
+
+set expandtab
+set hlsearch
+set ignorecase
+set laststatus=2
+set number
+set shiftwidth=0
+set smartcase
+set tabstop=4
+set title
+
+set statusline=%<%f%(\ %H%W%M%R%)
+set statusline+=%=\ %l,%c%V%(\ %{&fileencoding}%)%(\ %Y%)
