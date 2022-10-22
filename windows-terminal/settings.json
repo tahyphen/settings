@@ -3,7 +3,8 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
     "disabledProfileSources": [
-        "Windows.Terminal.Azure"
+        "Windows.Terminal.Azure",
+        "Windows.Terminal.VisualStudio"
     ],
     "language": "en-US",
     "profiles": {
