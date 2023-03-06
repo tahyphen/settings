@@ -11,5 +11,5 @@ fi
 
 # Title
 if [[ $TERM = xterm* ]] || [[ $TERM = rxvt* ]]; then
-    PS1="\[\e]0;\h: \w\e\\\]${PS1}"
+    PS1="\[\e]0;\h: \w\a\]${PS1}"
 fi
