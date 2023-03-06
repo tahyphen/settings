@@ -3,4 +3,4 @@ if [ -f "$OLDPWDFILE" ]; then
     OLDPWD="$(< $OLDPWDFILE)"
 fi
 
-trap 'echo "$OLDPWD" > "$OLDPWDFILE"' EXIT
+trap 'echo "$PWD" > "$OLDPWDFILE"' EXIT
