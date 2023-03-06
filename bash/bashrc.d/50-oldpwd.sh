@@ -1,4 +1,4 @@
-OLDPWDFILE="$(dirname $(readlink ~/.bashrc))/oldpwd"
+OLDPWDFILE="$(dirname $(readlink -f ~/.bashrc))/oldpwd"
 if [ -f "$OLDPWDFILE" ]; then
     OLDPWD="$(< $OLDPWDFILE)"
 fi

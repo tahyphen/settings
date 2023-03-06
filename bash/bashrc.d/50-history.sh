@@ -1,2 +1,2 @@
-HISTFILE="$(dirname $(readlink ~/.bashrc))/history"
+HISTFILE="$(dirname $(readlink -f ~/.bashrc))/history"
 HISTTIMEFORMAT="%F %R "

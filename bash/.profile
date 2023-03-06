@@ -1,4 +1,4 @@
-for i in "$(dirname $(readlink ~/.profile))"/profile.d/*.sh; do
+for i in "$(dirname $(readlink -f ~/.profile))"/profile.d/*.sh; do
     if [ -f "$i" ]; then
         . "$i"
     fi
