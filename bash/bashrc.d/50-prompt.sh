@@ -10,6 +10,6 @@ else
 fi
 
 # Title
-if [[ $TERM = xterm* ]] || [[ $TERM = rxvt* ]]; then
+if [[ $TERM = rxvt* ]] || [[ $TERM = tmux* ]] || [[ $TERM = xterm* ]]; then
     PS1="\[\e]0;\h: \w\a\]${PS1}"
 fi
