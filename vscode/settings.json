@@ -1,5 +1,5 @@
 {
-    "editor.renderFinalNewline": false,
+    "editor.renderFinalNewline": "off",
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
     "files.eol": "\n",
@@ -7,5 +7,7 @@
     "files.trimTrailingWhitespace": true,
     "telemetry.telemetryLevel": "off",
     "update.mode": "start",
-    "workbench.enableExperiments": false
+    "workbench.enableExperiments": false,
+    // LeonardSSH.vscord
+    "vscord.app.privacyMode.enable": true
 }
