@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "foxundermoon.shell-format",
-        "leonardssh.vscord"
+        "LeonardSSH.vscord",
+        "ms-azuretools.vscode-docker"
     ]
 }
