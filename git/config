@@ -1,6 +1,10 @@
 [alias]
 	force-push = push --force-with-lease --force-if-includes
 	graph = log --all --graph
+
+	d = diff
+	dd = difftool
+	s = status
 [format]
 	pretty = tformat:%C(auto)%h %C(green)%cd%C(auto) %s %C(cyan)@%an%C(auto)%d
 [init]
@@ -9,6 +13,7 @@
 	date = format-local:%F %R
 [merge]
 	ff = false
+	tool = nvimdiff
 [pull]
 	ff = only
 [rebase]
