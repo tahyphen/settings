@@ -1,3 +1,4 @@
+set clipboard=unnamedplus
 set expandtab
 set ignorecase
 set number
