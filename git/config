@@ -5,6 +5,7 @@
 	d = diff
 	dd = difftool
 	s = status
+	sw = switch
 [format]
 	pretty = tformat:%C(auto)%h %C(green)%cd%C(auto) %s %C(cyan)@%an%C(auto)%d
 [init]
@@ -14,7 +15,11 @@
 [merge]
 	ff = false
 	tool = nvimdiff
+[mergetool]
+	keepBackup = false
 [pull]
 	ff = only
+[push]
+	autoSetupRemote = true
 [rebase]
 	autoSquash = true
